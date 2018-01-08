@@ -15,6 +15,9 @@ function destructivelyRemoveFirstKitten() {
 function appendKitten(name) {
   
 }
+function prependKitten(name) {
+  
+}
 
   1) Arrays destructivelyAppendKitten(name) appends a kitten to the end of the kittens array:
      ReferenceError: destructivelyAppendKitten is not defined
