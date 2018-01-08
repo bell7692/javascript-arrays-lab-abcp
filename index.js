@@ -1,16 +1,16 @@
 const app = "I don't do much."
 
 function destructivelyAppendKitten(name) {
-  .push(name);
+  app.push(name);
 }
 function destructivelyPrependKitten(name) {
-  .unshift(name);
+  app.unshift(name);
 }
 function destructivelyRemoveLastKitten() {
-  .pop();
+  app.pop();
 }
 function destructivelyRemoveFirstKitten() {
-  .shift()
+  app.shift()
 }
 function appendKitten(name) {
   
