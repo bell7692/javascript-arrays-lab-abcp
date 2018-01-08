@@ -21,10 +21,10 @@ function prependKitten(name) {
   return newArr;
 }
 function removeLastKitten() {
-  var newArr = ;
+  var newArr = kittens.pop();
   return newArr;
 }
 function removeFirstKitten() {
-  var newArr = [;
+  var newArr = kittens.shift();
   return newArr;
 }
